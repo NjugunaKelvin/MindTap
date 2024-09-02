@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindTap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MindTap</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" data-section="notebook"><i class="fas fa-book"></i> Notebook</a></li>
+                    <li><a href="#" data-section="timed-goals"><i class="fas fa-hourglass-half"></i> Timed Goals</a></li>
+                    <li><a href="#" data-section="health-tips"><i class="fas fa-heartbeat"></i> Health Tips</a></li>
+                    <li><a href="#" data-section="diet"><i class="fas fa-apple-alt"></i> Diet</a></li>
+                    <li><a href="#" data-section="exercise"><i class="fas fa-dumbbell"></i> Exercise</a></li>
+                    <li><a href="#" data-section="expense-tracker"><i class="fas fa-wallet"></i> Expense Tracker</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to MindTap</h2>
+                <p>Your personal development companion.</p>
+                <a href="#notebook" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section id="notebook" class="section hidden">
+            <div class="container">
+                <h2>Notebook</h2>
+                <textarea placeholder="Write your notes here..."></textarea>
+                <button>Save Note</button>
+                <div class="card-list"></div>
+            </div>
+        </section>
+
+        <section id="timed-goals" class="section hidden">
+            <div class="container">
+                <h2>Timed Goals</h2>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your goal">
+                    <input type="datetime-local">
+                    <button>Add Goal</button>
+                </div>
+                <ul class="card-list"></ul>
+            </div>
+        </section>
+
+        <section id="health-tips" class="section hidden">
+            <div class="container">
+                <h2>Health Tips</h2>
+                <div class="card">
+                    <h3>Eat More Vegetables</h3>
+                    <p>Incorporate a variety of vegetables into your meals. They are rich in essential nutrients and fiber, which help maintain overall health and digestion. <span class="source">(Source: <a href="https://www.health.harvard.edu" target="_blank">Harvard Health</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Stay Hydrated</h3>
+                    <p>Drink plenty of water throughout the day. Staying hydrated is crucial for maintaining overall health, energy levels, and proper bodily functions. <span class="source">(Source: <a href="https://www.mayoclinic.org" target="_blank">Mayo Clinic</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Choose Whole Grains</h3>
+                    <p>Opt for whole grains over refined grains to increase your fiber intake and improve digestion. Whole grains also support heart health and can help with weight management. <span class="source">(Source: <a href="https://www.heart.org" target="_blank">American Heart Association</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Limit Added Sugars</h3>
+                    <p>Reduce the intake of added sugars in your diet to lower the risk of chronic diseases such as heart disease and diabetes, and to maintain a healthy weight. <span class="source">(Source: <a href="https://www.cdc.gov" target="_blank">CDC</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Include Lean Proteins</h3>
+                    <p>Incorporate lean proteins like chicken, fish, and legumes into your diet for better muscle health, satiety, and balanced nutrition. <span class="source">(Source: <a href="https://nutrition.org" target="_blank">Nutrition.org</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Moderate Portion Sizes</h3>
+                    <p>Be mindful of portion sizes to avoid overeating and maintain a healthy weight. This practice helps with portion control and calorie management. <span class="source">(Source: <a href="https://www.webmd.com" target="_blank">WebMD</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Reduce Sodium Intake</h3>
+                    <p>Lower your sodium intake to help manage blood pressure and reduce the risk of heart disease. Consuming less sodium can improve cardiovascular health. <span class="source">(Source: <a href="https://www.nhlbi.nih.gov" target="_blank">National Heart, Lung, and Blood Institute</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Incorporate Healthy Fats</h3>
+                    <p>Choose sources of healthy fats such as avocados, nuts, and olive oil instead of saturated fats. Healthy fats are important for brain health and hormone production. <span class="source">(Source: <a href="https://my.clevelandclinic.org" target="_blank">Cleveland Clinic</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Eat Mindfully</h3>
+                    <p>Pay attention to what you eat and enjoy your meals without distractions to improve digestion, prevent overeating, and enhance satisfaction. <span class="source">(Source: <a href="https://www.hsph.harvard.edu" target="_blank">Harvard T.H. Chan School of Public Health</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Plan Balanced Meals</h3>
+                    <p>Aim to have balanced meals that include a mix of protein, healthy fats, and carbohydrates. This approach supports overall health, energy levels, and well-being. <span class="source">(Source: <a href="https://www.eatright.org" target="_blank">Eatright.org</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Eat a Variety of Foods</h3>
+                    <p>Ensure a diverse diet to get all essential nutrients and reduce the risk of deficiencies. Variety supports overall health and helps prevent dietary imbalances. <span class="source">(Source: <a href="https://www.who.int" target="_blank">World Health Organization</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Limit Red Meat</h3>
+                    <p>Reduce consumption of red meat and processed meats to lower the risk of certain cancers and heart disease. Opting for leaner proteins can improve health outcomes. <span class="source">(Source: <a href="https://www.cancerresearchuk.org" target="_blank">Cancer Research UK</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Get Enough Fiber</h3>
+                    <p>Incorporate foods high in fiber, such as fruits, vegetables, and whole grains, to support digestion and heart health. Fiber aids in maintaining a healthy digestive system. <span class="source">(Source: <a href="https://www.diabetes.org" target="_blank">American Diabetes Association</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Practice Portion Control</h3>
+                    <p>Use smaller plates and bowls to help control portion sizes and prevent overeating. Portion control helps with weight management and balanced calorie intake. <span class="source">(Source: <a href="https://www.nih.gov" target="_blank">National Institutes of Health</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Eat More Fish</h3>
+                    <p>Include fish in your diet, particularly fatty fish like salmon, which is rich in omega-3 fatty acids beneficial for heart health. Omega-3s support cardiovascular function and brain health. <span class="source">(Source: <a href="https://www.bhf.org.uk" target="_blank">British Heart Foundation</a>)</span></p>
+                </div>
+                <div class="card">
+                    <h3>Limit Alcohol Consumption</h3>
+                    <p>If you drink alcohol, do so in moderation to avoid negative effects on health. Moderation helps prevent liver disease, certain cancers, and other health issues. <span class="source">(Source: <a href="https://www.niaaa.nih.gov" target="_blank">National Institute on Alcohol Abuse and Alcoholism</a>)</span></p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <section id="diet" class="section hidden">
+            <div class="container">
+                <h2>Diet</h2>
+                <div class="form-group">
+                    <input type="text" placeholder="Log your meal">
+                    <button>Add Meal</button>
+                </div>
+                <ul class="card-list"></ul>
+            </div>
+        </section>
+
+        <section id="exercise" class="section hidden">
+            <div class="container">
+                <h2>Exercise</h2>
+                <div class="form-group">
+                    <input type="text" placeholder="Log your exercise">
+                    <button>Add Exercise</button>
+                </div>
+                <ul class="card-list"></ul>
+            </div>
+        </section>
+
+        <section id="expense-tracker" class="section hidden">
+            <div class="container">
+                <h2>Expense Tracker</h2>
+                <div class="form-group">
+                    <input type="text" placeholder="Expense description">
+                    <input type="number" placeholder="Amount">
+                    <button>Add Expense</button>
+                </div>
+                <ul class="card-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MindTap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
