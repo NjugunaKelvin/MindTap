@@ -2,12 +2,13 @@
 
 *Master Your Growth. Plan Your Future.*
 
-
 ## Overview 🌟
 
 **MindTap** is your ultimate personal development platform, designed to help you take control of your growth and planning. Whether you're setting and tracking goals, organizing your daily life, or focusing on your health and diet, MindTap empowers you to stay organized, focused, and motivated in all areas of self-improvement. 
 
 > **Note:** This project is currently under development and is built using HTML, CSS, and JavaScript. Plans to link it with a database will be implemented in the future.
+
+📊 Check out our [Pitch Deck](https://gamma.app/docs/MindTap-xz9qld6udem70gu?mode=doc) for more details!
 
 ### Key Features ✨:
 - **📝 Notebook**: Capture your thoughts, ideas, and plans in an intuitive digital notebook.
